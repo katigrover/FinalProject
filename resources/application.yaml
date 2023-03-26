@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: final
+    username: final
+    url: jdbc:mysql://localhost:3306/final-project
+
+logging:
+  level:
+    root: warn
+    '[com.finalproject]': debug

@@ -1,0 +1,15 @@
+package com.finalproject.marvel;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.finalproject.ComponentScanMarker;
+
+
+@SpringBootApplication(scanBasePackageClasses = {ComponentScanMarker.class})
+public class FinalProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FinalProjectApplication.class, args);
+	}
+
+}
